@@ -2,28 +2,29 @@
   "schemaVersion": 1,
   "id": "fjskdfj",
   "version": "${version}",
+
   "name": "fjskdfj",
   "description": "",
   "authors": [],
   "contact": {},
+
   "license": "All-Rights-Reserved",
   "icon": "assets/fjskdfj/icon.png",
+
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "org._123.fjskdfj.client.FjskdfjClient"
-    ],
-    "main": [
-      "org._123.fjskdfj.Fjskdfj"
-    ]
+    "client": ["org._123.fjskdfj.client.FjskdfjClient"],
+    "main": ["org._123.fjskdfj.Fjskdfj"]
   },
+
   "mixins": [
-    "fjskdfj.mixins.json",
-    {
+    "fjskdfj.mixins.json"
+    ,{
       "config": "fjskdfj.client.mixins.json",
       "environment": "client"
     }
   ],
+
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
