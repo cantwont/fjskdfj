@@ -10,6 +10,7 @@ public class FjskdfjClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        LOGGER.info("mod running lalala");
+        String username = System.getProperty("user.name");
+        LOGGER.info("mod running lalala || test: " + username);
     }
 }
