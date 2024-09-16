@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class FjskdfjScreenshots {
 
-    private static final Logger LOGGER = LogManager.getLogger("Fjskdfj");
+    private static final Logger LOGGER = LogManager.getLogger("FjskdfjScreenshots");
     private static final String SAVE_PATH = "C:\\fjskdfj";
 
     public static void takeMinecraftScreenshot() {
